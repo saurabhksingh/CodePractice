@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d807ffe7-fa31-4378-ade4-1de4e6007835" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/dev/saurabh/BinaryTreeDiameter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/dev/saurabh/BTCheckHeightBalanced.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CodeEtc.iws" />
@@ -76,10 +77,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BinaryTreeDiameter.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="BinaryTreeDiameter.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/dev/saurabh/BinaryTreeDiameter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="0" selection-start="621" selection-end="621" vertical-scroll-proportion="0.8426966" vertical-offset="0" max-vertical-offset="585">
+            <state line="31" column="5" selection-start="626" selection-end="808" vertical-scroll-proportion="0.0" vertical-offset="140" max-vertical-offset="585">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="0" selection-start="28" selection-end="28" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BTCheckHeightBalanced.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/dev/saurabh/BTCheckHeightBalanced.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="25" selection-start="413" selection-end="413" vertical-scroll-proportion="0.42696628" vertical-offset="65" max-vertical-offset="615">
               <folding />
             </state>
           </provider>
@@ -110,6 +129,8 @@
         <option value="$PROJECT_DIR$/src/com/dev/saurabh/BinaryTree.java" />
         <option value="$PROJECT_DIR$/src/com/dev/saurabh/BinaryTreeChildrenSumProperty.java" />
         <option value="$PROJECT_DIR$/src/com/dev/saurabh/BinaryTreeDiameter.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/com/dev/saurabh/BTCheckHeightBalanced.java" />
       </list>
     </option>
   </component>
@@ -196,7 +217,7 @@
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
   </component>
-  <component name="RunManager" selected="Application.BinaryTreeDiameter">
+  <component name="RunManager" selected="Application.BTCheckHeightBalanced">
     <configuration default="false" name="BinaryTreeChildrenSumProperty" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.dev.saurabh.BinaryTreeChildrenSumProperty" />
       <option name="VM_PARAMETERS" />
@@ -215,6 +236,22 @@
     </configuration>
     <configuration default="false" name="BinaryTreeDiameter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.dev.saurabh.BinaryTreeDiameter" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="CodePractice" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="BTCheckHeightBalanced" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dev.saurabh.BTCheckHeightBalanced" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -356,14 +393,16 @@
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Application.BinaryTreeChildrenSumProperty" />
       <item index="1" class="java.lang.String" itemvalue="Application.BinaryTreeDiameter" />
+      <item index="2" class="java.lang.String" itemvalue="Application.BTCheckHeightBalanced" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.BinaryTreeDiameter" />
-        <item index="1" class="java.lang.String" itemvalue="Application.BinaryTreeChildrenSumProperty" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Application.BTCheckHeightBalanced" />
+        <item index="1" class="java.lang.String" itemvalue="Application.BinaryTreeDiameter" />
+        <item index="2" class="java.lang.String" itemvalue="Application.BinaryTreeChildrenSumProperty" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -444,9 +483,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="28" selection-end="28" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/dev/saurabh/BinaryTreeDiameter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="621" selection-end="621" vertical-scroll-proportion="0.8426966" vertical-offset="0" max-vertical-offset="585">
+        <state line="31" column="5" selection-start="626" selection-end="808" vertical-scroll-proportion="0.0" vertical-offset="140" max-vertical-offset="585">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dev/saurabh/BTCheckHeightBalanced.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="25" selection-start="413" selection-end="413" vertical-scroll-proportion="0.42696628" vertical-offset="65" max-vertical-offset="615">
           <folding />
         </state>
       </provider>
