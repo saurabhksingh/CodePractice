@@ -1,6 +1,6 @@
-package com.dev.saurabh;
+package com.dev.saurabh.tree;
 
-import static com.dev.saurabh.BinaryTree.*;
+import static com.dev.saurabh.tree.BinaryTree.*;
 /**
  * Created by ssaurab on 2/2/14.
  */

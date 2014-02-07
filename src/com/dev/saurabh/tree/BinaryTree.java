@@ -1,4 +1,4 @@
-package com.dev.saurabh;
+package com.dev.saurabh.tree;
 
 /**
  * Created by ssaurab on 2/2/14.
@@ -9,6 +9,7 @@ public class BinaryTree {
 
         public Node lChild;
         public Node rChild;
+        public int liss = -1;
         public int data;
     }
 
